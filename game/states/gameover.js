@@ -1,11 +1,9 @@
-
 'use strict';
+
 function GameOver() {}
 
 GameOver.prototype = {
-  preload: function () {
-
-  },
+  preload: function () {},
   create: function () {
     var style = { font: '65px Arial', fill: '#ffffff', align: 'center'};
     this.titleText = this.game.add.text(this.game.world.centerX,100, 'Game Over!', style);
@@ -23,4 +21,5 @@ GameOver.prototype = {
     }
   }
 };
+
 module.exports = GameOver;

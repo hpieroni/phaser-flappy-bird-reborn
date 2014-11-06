@@ -1,8 +1,6 @@
-
 'use strict';
 
-function Boot() {
-}
+function Boot() {}
 
 Boot.prototype = {
   preload: function() {
