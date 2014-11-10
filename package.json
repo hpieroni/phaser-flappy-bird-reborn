@@ -1,5 +1,5 @@
 {
-  "name": "flappy-bird-reborn",
+  "name": "phaser-flappy-bird-reborn",
   "private": true,
   "devDependencies": {
     "grunt": "~0.4.1",
